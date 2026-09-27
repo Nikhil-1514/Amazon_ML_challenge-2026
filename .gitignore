@@ -1,0 +1,28 @@
+# Competition Data & Large Files
+dataset/
+output/
+models/
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.log
+*.json
+
+# Exclude all TSV files by default EXCEPT examples/sample_output.tsv
+*.tsv
+!examples/sample_output.tsv
+
+# Python Caches & Environments
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+venv/
+env/
+
+# Scratch & Debug Directories
+scratch/
+.DS_Store
+Thumbs.db
